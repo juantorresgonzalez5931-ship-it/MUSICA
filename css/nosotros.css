@@ -4,14 +4,14 @@
   --accent:        #89a5f1;
   --text-light:    #ffffff;
   --text-muted:    #ffffff;
-  --input-bg:      #f2f3f1;
+  --input-bg:      #72d80d;
   --input-border:  #0e0d0d;
 }
 body{
 margin:0;
 font-family: Arial;
   background: linear-gradient(to right, #dec8f3, #7c67f1);
-color:white;
+color:rgb(0, 0, 0);
 }
 .navbar {
   background-color: var(--bg-navbar);
@@ -69,7 +69,7 @@ padding:40px;
 }
 
 .card{
-  background: linear-gradient(to right, #dec8f3, #7c67f1);
+  background: linear-gradient(to right, #fafafa, #eecd3c);
 padding:30px;
 border-radius:10px;
 width:300px;
@@ -85,11 +85,11 @@ padding:50px;
 display:flex;
 justify-content:center;
 gap:30px;
-flex-wrap:wrap;
+flex-wrap:wrap; 
 }
 
 .servicio{
-background:#1c1c1c;
+background: linear-gradient(to right, #89bfeb, #573cee);
 padding:20px;
 border-radius:10px;
 width:200px;
