@@ -12,43 +12,44 @@ color:white;
 }
 
 
-/* NAVBAR */
+/* HEADER */
+
+header{
+background:#000;
+position:sticky;
+top:0;
+z-index:1000;
+}
 
 .navbar{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 80px;
-background:black;
+padding:16px 5%;
+max-width:1200px;
+margin:auto;
 }
 
-.logo{
-font-size:24px;
-font-weight:bold;
-color:#c218a7;
+.logo h1{
+color:#8b0c85;
 }
 
-.menu{
+.nav-links{
 display:flex;
 list-style:none;
 gap:30px;
 }
 
-.menu a{
+.nav-links a{
 text-decoration:none;
 color:white;
-font-weight:500;
-transition:.3s;
+font-weight:bold;
+transition:0.3s;
 }
 
-.menu a:hover{
-color:#c218a7;
+.nav-links a:hover{
+color:#8b0c85;
 }
-
-.activo{
-color:#c218a7;
-}
-
 
 /* HERO */
 
