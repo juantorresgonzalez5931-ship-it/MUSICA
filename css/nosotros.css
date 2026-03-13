@@ -7,7 +7,7 @@ font-family:Arial, Helvetica, sans-serif;
 
 
 body{
-background:#0b0b0b;
+background:#0b0b0b;/*color de la letra Sobre YAJUMUSIC*/
 color:white;
 }
 
@@ -15,7 +15,7 @@ color:white;
 /* HEADER */
 
 header{
-background:#000;
+background:#000;/*fondo de la barra */
 position:sticky;
 top:0;
 z-index:1000;
@@ -31,7 +31,7 @@ margin:auto;
 }
 
 .logo h1{
-color:#8b0c85;
+color:#8b0c85;/*color de letra logo de la barra */
 }
 
 .nav-links{
@@ -42,16 +42,16 @@ gap:30px;
 
 .nav-links a{
 text-decoration:none;
-color:white;
+color:white;/*color de la letra barra del  menu*/
 font-weight:bold;
 transition:0.3s;
 }
 
 .nav-links a:hover{
-color:#8b0c85;
+color:#8b0c85;/*color al hacer clic sobre los botones de la barra */
 }
 
-/* HERO */
+/* HERO despes de la barra*/
 
 .hero-nosotros{
 height:350px;
@@ -111,7 +111,7 @@ background:#151515;
 padding:40px;
 border-radius:12px;
 width:350px;
-text-align:justify;
+text-align:justify;/*centrar texto cuadro*/
 box-shadow:0 10px 30px rgba(0,0,0,0.6);
 transition:.3s;
 }
@@ -145,7 +145,7 @@ margin-bottom:50px;
 color:#c218a7;
 }
 
-.team-container{
+.team-container{ 
 display:flex;
 justify-content:center;
 gap:40px;
