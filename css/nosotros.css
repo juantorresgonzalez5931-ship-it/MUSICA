@@ -151,7 +151,7 @@ gap:40px;
 flex-wrap:wrap;
 }
 
-.team-card{
+.team-card{ /*Fondo del cuadrado de las fotos */
 background:#151515;
 padding:25px;
 border-radius:12px;
@@ -160,13 +160,13 @@ transition:.3s;
 }
 
 .team-card:hover{
-transform:scale(1.05);
+transform:scale(1.05);/*Movimiento de los cuadros de las imagenes*/
 }
 
-.team-card img{
+.team-card img{ 
 width:120px;
 height:120px;
-border-radius:50%;
+border-radius:50%;/*Forma de la imagen circulo */
 margin-bottom:15px;
 border:3px solid #d63384;
 }
@@ -180,10 +180,10 @@ color:#bbb;
 }
 
 
-/* FOOTER */
+/* FOOTER */  /*pie de página*/
 
-footer{
-background:black;
+footer{ 
+background:black; /*fondo de pie de página*/
 padding:50px 10%;
 margin-top:60px;
 }
@@ -204,7 +204,7 @@ margin-bottom:15px;
 color:#ccc;
 }
 
-.copy{
+.copy{/*© 2025 YAJUMUSIC - Todos los derechos reservados*/
 text-align:center;
 margin-top:40px;
 color:#888;
