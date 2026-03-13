@@ -41,7 +41,7 @@ gap:30px;
 
 .nav-links a{
 text-decoration:none;
-color:white;
+color:white;/*color de la letra barra del  menu*/
 font-weight:bold;
 transition:0.3s;
 }
@@ -74,7 +74,7 @@ margin-top:10px;
 }
 
 
-/* CONTACTO */
+/* CONTACTO informacion*/
 
 .contact-section{
 padding:70px 5%;
@@ -123,7 +123,7 @@ color:#8b0c85;
 
 /*Formulario*/
 .contact-form{
-background:#181818;
+background:#181818; /*color cuadro*/
 padding:30px;
 border-radius:10px;
 }
@@ -139,7 +139,7 @@ gap:15px;
 padding:12px;
 border:none;
 border-radius:6px;
-background:#282828;
+background:#282828;/*color cuadro de los campos*/
 color:white;
 }
 
@@ -159,7 +159,7 @@ transition:0.3s;
 }
 
 .contact-form button:hover{
-background:#7983ff;
+background:#7983ff;/*color del boton al darle click*/
 }
 
 
