@@ -194,3 +194,30 @@ border-top:1px solid #333;
 padding-top:15px;
 color:#B3B3B3;
 }
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+.hero{
+height:350px;
+padding:20px;
+}
+
+.hero-content h2{
+font-size:32px;
+}
+
+.section-title{
+font-size:30px;
+}
+
+.circulos{
+gap:30px;
+}
+
+}

@@ -210,3 +210,30 @@ text-align:center;
 margin-top:40px;
 color:#888;
 }
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+.hero{
+height:350px;
+padding:20px;
+}
+
+.hero-content h2{
+font-size:32px;
+}
+
+.section-title{
+font-size:30px;
+}
+
+.circulos{
+gap:30px;
+}
+
+}
