@@ -11,10 +11,10 @@ color:white;
 }
 
 
-/* NAVBAR */
+/* Header */
 
 header{
-background:#000;
+background:#000;/*fondo de la barra */
 position:sticky;
 top:0;
 z-index:1000;
@@ -51,7 +51,7 @@ color:#8b0c85;
 }
 
 
-/* HERO */
+/* HERO despues de la barra  */
 
 .hero{
 height:300px;
@@ -121,7 +121,7 @@ transition:0.3s;
 color:#8b0c85;
 }
 
-
+/*Formulario*/
 .contact-form{
 background:#181818;
 padding:30px;
@@ -163,7 +163,7 @@ background:#7983ff;
 }
 
 
-/* FOOTER */
+/* FOOTER Pie de pajina*/
 
 footer{
 background:#000;

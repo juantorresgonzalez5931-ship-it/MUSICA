@@ -55,7 +55,8 @@ color:#8b0c85;
 
 .hero-nosotros{
 height:350px;
-background:linear-gradient(90deg,#6a0dad,#d63384);
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url("https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
